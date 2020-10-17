@@ -108,8 +108,11 @@
   background: #e4e4e4;
   color: #333333;
   width: 450px;
-  text-align: center; }
-
+  text-align: center;
+  max-height: 20px;
+  overflow: hidden;
+}
+  
 .list-altcorreta {
   margin-left: 7px;
   background: #e4e4e4;
@@ -244,7 +247,7 @@ input:checked + .slider:before {
   width: 80px;
   text-align: center; }
 
-/*# sourceMappingURL=questoes-criadas.css.map */
+
 
 
 
@@ -257,6 +260,70 @@ input:checked + .slider:before {
 
 
 
+.tema-prova-alinhamento{
+  display: flex;
+  width: 1000px;
+  margin: 5px auto 5px auto; 
 
 
+}
+
+
+
+.inserir-assunto-prova{
+  background: blue;  
+
+}
+
+
+
+.insert-tema-provaa{
+  background:linear-gradient(to bottom, #1678e0 0%, #3b3bcf 100%);
+  width: 400px;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  padding-left: 10px
+
+}
+
+
+.insert-assunto-provaa {
+  background: linear-gradient(to bottom, #1678e0 0%, #3b3bcf 100%);
+  width: 400px;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  padding-left: 10px
+
+}
+
+.input-assunto-provaa{
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+  margin-left: 10px;
+  background: rgb(230, 228, 228);
+  width: 290px;
+
+
+}
+
+
+
+.input-tema-provaa{
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+  margin-left: 10px;
+  background: rgb(230, 228, 228);
+  width: 290px;
+
+}
+
+
+
+
+
+/*# sourceMappingURL=questoes-criadas.css.map */
 
