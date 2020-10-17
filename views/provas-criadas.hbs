@@ -1,0 +1,78 @@
+
+
+
+<link rel="stylesheet" href="/stylesheets/questoes-criadas.css" />
+
+
+
+<div class="conteudo-questoes-criadas"> 
+
+
+ <br>
+ <br>
+ <br>
+
+
+
+  <div class="questoes-criadas-titulo">
+    Controle de Provas Criadas
+
+  </div>
+
+  <div class="questoes-criadas-procurar">
+
+    <div class="questoes-criadas-procurar-div">
+      Procurar <input type="text" class="input-procurar">
+      <div>
+        <button class="btn-procurar-questao">Procurar</button>
+        <a href="/adicionar-prova"><button class="btn-adicionar-questao">+ Adicionar</button></a>
+      </div>
+    </div>
+
+  </div>
+
+
+
+<div class="questoes-criadas-listagem">
+
+  <ul class="questoes-criadas-header">
+    <li class="header-assunto">Tema</li>
+    <li class="header-enunciado">Titulo</li>
+    <li class="header-altcorreta">Alternativa Correta</li>
+    <li class="header-acao">Ação</li>
+    
+  </ul>
+
+
+{{#each ProvasList}}
+<ul class="questoes-criadas-list">
+    <li class="list-assunto">{{this.tema}}</li>
+    <li class="list-enunciado">{{this.titulo}}</li>
+    <li class="list-altcorreta">{{this.titulo}}</li>
+    <li class="list-acao"><button class="btn-editar-questao">Editar</button> <button class="btn-deletar-questao">Excluir</button></li>
+    
+  </ul>
+  {{/each}}
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<!--Fim do Registro de alternativas -->
+
+
+
+
+
+
+
+

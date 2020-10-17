@@ -1,0 +1,124 @@
+
+<link rel="stylesheet" href="/stylesheets/visao-prova.css" />
+
+
+<div class="visao-prova"> 
+
+
+
+ <br>
+ <br>
+ 
+ <div class="header-visao-prova">
+
+    <div class="visao-prova-name">Prova: Title </div> 
+    
+
+
+
+ </div>
+
+  <div class="selecionar-questao">
+    <div class="titulo-selecionar">Selecionar Questão:</div>
+    <div class="btn-questoes">
+      <button id="questao-1" class="btn-visao-prova" onclick="questao1()">1</button>
+      <button id="questao-2"  class="btn-visao-prova">2</button>
+      <button  id="questao-3" class="btn-visao-prova">3</button>
+      <button id="questao-4"  class="btn-visao-prova">4</button>
+      <button  id="questao-5" class="btn-visao-prova">5</button>
+      <button id="questao-6"  class="btn-visao-prova">6</button>
+      <button id="questao-7"  class="btn-visao-prova">7</button>
+      <button id="questao-8"  class="btn-visao-prova">8</button>
+      <button id="questao-9"  class="btn-visao-prova">9</button>
+      <button id="questao-10"  class="btn-visao-prova">10</button>
+     
+
+    </div>
+
+<div class="prova-summary">
+
+<div class="visao-prova-progresso">Progresso: XX% </div> 
+    <div><button class="btn-finalizar-prova">Finalizar Prova</button></div>
+</div>
+
+
+
+  </div>
+
+
+{{#each QuestionList}}
+
+<div class="numero-questao">
+  Questão X
+</div>
+
+<div class="listagem-questoes">
+
+
+
+<div id="enunciado-questao" class="enunciado-questao">
+  {{enunciado}}
+
+</div>
+
+<div class="alternativas">
+ 
+  <div class="alternativa-a">
+   <div class="texto-alternativa">A</div> 
+   <button class="btn-alternativa-a"> {{alternativaA}} </button>  
+  </div>
+<div class="alternativa-b">
+  <div class="texto-alternativa">B</div> 
+  <button class="btn-alternativa-b">{{alternativaB}} </button>  
+  </div>
+  <div class="alternativa-c">
+    <div class="texto-alternativa">C</div> 
+   <button class="btn-alternativa-c">{{alternativaC}}  </button>
+  </div>
+  <div class="alternativa-d">
+    <div class="texto-alternativa">D</div> 
+    <button class="btn-alternativa-d">{{alternativaD}}  </button>
+    
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+{{/each}}
+
+
+
+
+
+
+
+
+<div class="btns-next-previous">
+  <div class="btn-previous">Anterior</div>
+  <div class="btn-next">Próxima</div>
+
+
+</div>
+
+
+
+</div>
+
+<!--Fim do Registro de alternativas -->
+
+
+
+
+
+<script type="text/javascript" src="/javascripts/renderizar.js"></script>
+
+
+

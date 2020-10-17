@@ -1,0 +1,135 @@
+
+
+
+
+
+<link rel="stylesheet" href="/stylesheets/adicionar-questao.css" />
+
+
+
+<div class="conteudo-adicionar-questao"> 
+
+ <br>
+ <br>
+ <br>
+
+<form action="/questoes-criadas" method="post">
+
+
+
+<div class="cadastro-questao-title">
+  <div class="cadastro-title-texto">Tela de Cadastro de Questões</div> 
+  </div>
+</div>
+
+
+<!--Início das informações gerais -->
+
+
+<div class="cadastro-questao-infosgerais">
+   Informações Gerais
+
+</div>
+
+<div class="cadastro-questao-assunto">
+  <div class="assunto-enum">Inserir assunto: <input type="text" class="input-assunto"  name='assunto'></div>
+</div>
+
+<div class="cadastro-questao-enunciado">
+  <div class="cq-enum-text">Inserir enunciado:</div>
+   <textarea class="input-enum" rows="9" cols="80" name="enunciado"> </textarea>
+</div>
+
+
+<!--Fim das informações gerais -->
+
+
+
+<!--Início do cadastro de alternativas -->
+
+
+
+
+<div class="cadastro-questao-registrorespostas">
+    Registro de Respostas das alternativas
+
+</div>
+
+
+<div class="cadastro-questao-alternativas">
+
+<div class="cadastro-questao-alternativa-a">
+  <div class="assunto-enum">Inserir alternativa A: <input type="text" class="input-alternativa" name='alternativaA'></div>
+ 
+</div>
+
+<div class="cadastro-questao-alternativa-b">
+  <div class="assunto-enum">Inserir alternativa B: <input type="text" class="input-alternativa" name='alternativaB'></div>
+ 
+</div>
+
+<div class="cadastro-questao-alternativa-c">
+  <div class="assunto-enum">Inserir alternativa C: <input type="text" class="input-alternativa" name='alternativaC'></div>
+ 
+</div>
+
+<div class="cadastro-questao-alternativa-d">
+  <div class="assunto-enum">Inserir alternativa D: <input type="text" class="input-alternativa" name='alternativaD'></div>
+ 
+</div>
+
+
+<div class="cadastro-questao-selecionaralternativa">
+  <div class="assunto-alt">Selecionar Alternativa Correta:<select class="optalternativas" name='alternativaCorreta'>
+  <option value="a"selected>A</option>
+  <option value="b">B</option>
+  <option value="c">C</option>
+  <option value="d">D</option>
+</select></div>
+ 
+</div>
+
+
+
+    <div class="cadastro-questao-comentarios">
+  <div class="cq-enum-text"> <div class="coment">Inserir Comentários: </div> 
+   <textarea class="input-enum" rows="6" cols="80" name='comentario'> </textarea></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!--Fim do Registro de alternativas -->
+
+
+<div class="btn-adicionar-questao">
+
+  
+  <button type="submit" class="btn-cadastrar-questao">Cadastrar Questão</button>
+
+
+
+
+ <a href="/questoes-criadas">
+<div class="btn-cancelar-questao">
+Cancelar 
+</div>
+</a> 
+
+
+
+</form>
+
+
+</div>

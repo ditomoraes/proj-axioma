@@ -1,0 +1,94 @@
+
+<link rel="stylesheet" href="/stylesheets/questoes-criadas.css" />
+
+
+
+<div class="conteudo-questoes-criadas"> 
+
+
+ <br>
+ <br>
+ <br>
+
+
+
+  <div class="questoes-criadas-titulo">
+    Visão de Criação de Provas
+
+  </div>
+
+  <div class="questoes-criadas-procurar">
+
+    <div class="questoes-criadas-procurar-div">
+      Procurar <input type="text" class="input-procurar">
+      <div>
+        <button class="btn-procurar-questao">Procurar</button>
+        
+      </div>
+    </div>
+
+  </div>
+
+<form action="/provas-criadas"  method="post">
+
+
+<div class="tema-prova-alinhamento">
+<div class="inserir-tema-prova">
+    <div class="inserir-tema">Inserir Tema da prova:</div>
+  <div><input type="text"  class="input-tema-prova" name='tema'></div>
+
+</div>
+</div>
+
+
+<div class="assunto-prova-alinhamento">
+<div class="inserir-assunto-prova">
+    <div class="inserir-tema">Inserir assunto da prova:</div>
+  <div><input type="text"  class="input-assunto-prova" name='assunto'></div>
+
+</div>
+</div>
+
+
+<div class="questoes-criadas-listagem">
+
+  <ul class="questoes-criadas-header">
+    <li class="header-assunto">Assunto</li>
+    <li class="header-enunciado">Enunciado</li>
+    <li class="header-altcorreta">Alternativa Correta</li>
+    <li class="header-add">Add</li>
+    
+  </ul>
+
+
+{{#each QuestionList}}
+<ul class="questoes-criadas-list">
+    <li class="list-assunto" >{{this.assunto}}</li>
+    <li class="list-enunciado" name='enunciado'>{{this.enunciado}}</li>
+    <li class="list-altcorreta" name='_id'>{{this.id}}</li>
+    <li class="list-add"><label class="switch">
+  <input type="checkbox" name='{{this.id}}' >
+  <span class="slider round"></span>
+</label></li>
+    
+  </ul>
+  {{/each}}
+
+
+
+
+</div>
+
+</div>
+
+<!--Fim do Registro de alternativas -->
+
+
+
+<div class="btn-prova-db">
+<button class="btn-cadastrar-prova" type="submit">Criar Prova</button>
+</div>
+
+</form>
+
+

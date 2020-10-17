@@ -1,0 +1,78 @@
+
+<link rel="stylesheet" href="/stylesheets/provas-realizadas.css" />
+
+
+
+<div class="conteudo-questoes-criadas"> 
+
+
+ <br>
+ <br>
+ <br>
+
+
+
+  <div class="provas-realizadas-titulo">
+    Controle de Provas Realizadas
+
+  </div>
+
+  <div class="provas-realizadas-procurar">
+
+    <div class="provas-realizadas-procurar-div">
+      Procurar <input type="text" class="input-procurar-prova">
+      <div>
+        <button class="btn-procurar-prova">Procurar</button>
+       
+      </div>
+    </div>
+
+  </div>
+
+
+
+<div class="provas-realizadas-listagem">
+
+  <ul class="provas-realizadas-header">
+    <li class="realizadas-header-assunto">ID</li>
+    <li class="realizadas-header-enunciado">Tema</li>
+    <li class="realizadas-header-altcorreta">Assunto</li>
+    <li class="realizadas-header-acao">Ação</li>
+
+  </ul>
+
+
+{{#each ProvasList}}
+<ul class="provas-realizadas-list">
+    <li class="realizadas-list-assunto">{{this.id}}</li>
+    <li class="realizadas-list-enunciado">{{this.tema}}</li>
+    <li class="realizadas-list-altcorreta">{{this.assunto}}</li>
+    <li class="realizadas-list-acao">
+      
+      <a href="/visao-prova"><button class="btn-fazer-prova">Fazer Prova</button></a>
+      
+      
+      </li>
+    
+  </ul>
+{{/each}}
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+<!--Fim do Registro de alternativas -->
+
+
+
+
+
+
+
+

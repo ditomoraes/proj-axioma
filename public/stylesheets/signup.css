@@ -1,0 +1,272 @@
+.cadastro-questao-title{
+  font-size: 26px;
+  text-align: center;
+  background: linear-gradient(to bottom, #1678e0 0%, rgb(59, 59, 207) 100%);   
+  color: white;
+  width: 700px;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  height: 40px;
+  
+
+}
+
+.cadastro-questao-title:hover {
+  background: chartreuse;
+  color:black;
+  transition: all 0.6s ease-out;
+
+}
+
+.cadastro-title-texto{
+  padding-top: 5px;
+}
+
+
+.cadastro-questao-infosgerais{
+  font-size: 25px;
+  margin: 20px auto;
+  text-align: center;
+  align-items: center;
+  color: rgb(13, 13, 95);
+  border-bottom: rgb(13, 13, 95) solid 2px;
+  width: 700px;
+
+  
+}
+
+
+
+
+.cadastro-questao-assunto{
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  
+  
+}
+
+
+.input-nome{
+  border-bottom: solid 1.8px rgb(13, 13, 161);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 400px;
+  height: 25px;
+  font-size: 15px;
+  margin-left: 5px;
+  
+}
+
+.input-nascimento{
+  background: rgb(228, 227, 227);
+  border: none;
+  width: 200px;
+  height: 25px;
+  font-size: 15px;
+  margin-left: 5px;
+
+}
+
+.input-senha{
+  background: rgb(228, 227, 227);
+  border: none;
+  width: 200px;
+  height: 25px;
+  font-size: 15px;
+  margin-left: 5px;
+
+
+}
+
+.input-confirmar-senha{
+  background: rgb(228, 227, 227);
+  border: none;
+  width: 200px;
+  height: 25px;
+  font-size: 15px;
+  margin-left: 5px;
+
+
+}
+
+
+.cadastro-questao-enunciado{
+
+  display: flex;
+  margin: 20px auto;
+  font-size: 16px;
+  width: 700px;
+
+}
+
+
+.cq-enum-text{
+ 
+  padding-top: 0;
+}
+
+.input-email{
+  background: rgb(228, 227, 227);
+  border: none;
+  width: 400px;
+  height: 25px;
+  font-size: 15px;
+  margin-left: 5px;
+  
+}
+
+
+
+.cadastro-questao-registrorespostas{
+  font-size: 25px;
+  margin: 50px auto 30px auto;
+  text-align: center;
+  align-items: center;
+  color: rgb(13, 13, 95);
+  border-bottom: rgb(13, 13, 95) solid 2px;
+  width: 700px;
+
+
+}
+
+
+
+.input-alternativa{
+  background: rgb(228, 227, 227);
+  border: none;
+  width: 600px;
+  height: 25px;
+  font-size: 15px;
+  text-align: left;
+
+  
+}
+
+
+
+
+
+.cadastro-questao-alternativa-a, .cadastro-questao-alternativa-b, .cadastro-questao-alternativa-c, .cadastro-questao-alternativa-d {
+  margin-left: 400px;
+  
+  margin-top: 10px;
+
+
+}
+
+
+.cadastro-questao-selecionaralternativa{
+  font-size: 22px;
+  margin: 40px auto;
+  text-align: center;
+  align-items: center;
+  color: white;
+  width: 700px;
+  font-weight: 600;
+  border-radius: 10px;
+  
+  
+}
+
+
+.optalternativas{
+  background:  chartreuse;
+  border: none;
+  height: 30px; 
+  margin-left: 10px; 
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  width: 30px;
+  align-items: center;
+  margin-top: 0;
+
+}
+
+
+
+
+
+
+.cadastro-questao-comentarios{
+
+ 
+  margin: 20px auto;
+  text-align: center;
+  align-items: center;
+  font-size: 16px;
+  
+  width: 700px;
+
+}
+
+
+.cq-enum-text{
+  display: flex;
+  
+}
+
+.assunto-alt{
+  background: linear-gradient(to bottom, #1678e0 0%, rgb(59, 59, 207) 100%); 
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+
+
+.btn-cadastrar-questao {
+  text-align: center;
+  align-items: center;
+  margin: 40px auto;
+  font-size: 20px;
+  background: linear-gradient(to bottom, #1678e0 0%, rgb(59, 59, 207) 100%);  
+  width: 220px;
+  border-radius: 15px;
+  color: white;
+  height: 30px;
+  padding-top: 6px;
+  font-weight: 600;
+}
+
+
+
+.btn-cadastrar-questao:hover {
+  background: chartreuse;
+  color:black;
+  transition: all 0.6s ease-out;
+  cursor: pointer;
+
+}
+
+
+
+.btn-cancelar-questao{
+  text-align: center;
+  align-items: center;
+  margin: 40px auto;
+  font-size: 20px;
+  background: linear-gradient(to bottom, red, rgb(233, 5, 5));  
+  width: 220px;
+  border-radius: 15px;
+  color: white;
+  height: 30px;
+  padding-top: 6px;
+  font-weight: 600;
+}
+
+.btn-adicionar-questao{
+  display: flex;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.btn-cancelar-questao:hover{
+  background: chartreuse;
+  color:black;
+  transition: all 0.6s ease-out;
+  cursor: pointer;
+
+}
